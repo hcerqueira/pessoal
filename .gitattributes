@@ -1,0 +1,28 @@
+# Normalização de fim de linha
+* text=auto eol=lf
+
+# Binários (não normalizar)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.svg binary
+*.pdf binary
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.jar binary
+*.zip binary
+*.tar.gz binary
+*.rar binary
+*.webm binary
+*.mp4 binary
+
+# Lockfiles (não gerar diff no GitHub)
+package-lock.json linguist-generated=true
+yarn.lock linguist-generated=true
+gradle.lockfile linguist-generated=true

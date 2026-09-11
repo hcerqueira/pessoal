@@ -1,0 +1,4 @@
+[allowlist]
+description = "Allowlist do repo pessoal"
+paths = []
+regexes = []
